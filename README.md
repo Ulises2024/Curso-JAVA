@@ -156,3 +156,10 @@ Por lo tanto, una declaración de variable en <strong>Java</strong> se ve de la 
 
 <br>
 
+<h2 style="color:green;">¿Qué son los operadores?</h2>
+
+<p>
+Un <strong>operador</strong> es un símbolo especial que indica al compilador que debe efectuar una determinada operación (acción). Estas operaciones pueden ser de asignación, aritméticas, condicionales, relacionales, entre otras.
+</p>
+
+<p>Por ejemplo:</p>
