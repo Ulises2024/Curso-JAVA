@@ -163,3 +163,4 @@ Un <strong>operador</strong> es un símbolo especial que indica al compilador qu
 </p>
 
 <p>Por ejemplo:</p>
+![Descripción de la imagen](https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/operadores_java.png)
