@@ -195,7 +195,7 @@ La estructura de control <strong>if</strong> permite decidir entre dos opciones 
 <p>
 Si el resultado es <strong>verdadero</strong>, se ejecutan las sentencias contenidas dentro del <strong>if</strong>. En caso contrario, el programa "saltea" lo que se encuentra dentro de este bloque.
 </p>
-
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/if.png" alt="Operadores en Java" width="300">
 <br>
 
 <h2 style="color:green;">Condicional IF + ELSE (Si + SINO)</h2>
@@ -203,4 +203,4 @@ Si el resultado es <strong>verdadero</strong>, se ejecutan las sentencias conten
 <p>
 El <strong>else</strong> es la extensión de la sentencia <strong>if</strong>. Significa "de lo contrario" o "sino" y permite la ejecución de un bloque de código <strong>solamente</strong> si la condición de la sentencia <strong>if</strong> fue <strong>falsa</strong>.
 </p>
-
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/else.png" alt="Operadores en Java" width="300">
