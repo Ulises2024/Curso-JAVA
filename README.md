@@ -94,4 +94,44 @@ Las <strong>constantes</strong> son valores que se mantienen siempre de igual ma
 Tanto <strong>Variables</strong> como <strong>Constantes</strong> utilizan <strong>TIPOS DE DATOS</strong>.
 </p>
 
+<br>
 
+<h2 style="color:green;">Tipos de DATOS</h2>
+
+<p>
+Los <strong>tipos de datos</strong> definen qué puede ser almacenado dentro de una <strong>variable</strong> y los límites de lo que allí se puede asignar. Algunos de los tipos de datos más usados son:
+</p>
+
+<ul>
+  <li><strong>Entero <code>int</code></strong>: Ejemplo: <code>0</code>, <code>1</code>, <code>35</code>, <code>120</code>, <code>44</code>, etc.</li>
+  <li><strong>Decimales <code>double</code></strong>: Ejemplo: <code>1.5</code>, <code>5.8</code>, <code>35.64</code>, etc.</li>
+  <li><strong>Booleanos <code>boolean</code></strong>: <code>true</code> o <code>false</code>.</li>
+  <li><strong>Caracteres <code>char</code></strong>: Ejemplo: <code>'a'</code>, <code>'b'</code>, <code>'l'</code>, <code>'d'</code>, <code>'e'</code>, <code>'p'</code>.</li>
+  <li><strong>Cadena de Caracteres/Texto <code>String</code></strong>: Ejemplo: <code>"Hola mundo, probando 1,2,3"</code>.</li>
+  <li><strong>Entero Largo <code>long</code></strong>: Números entre: <code>(-9.223.372.036.854.775.808</code> y <code>9.223.372.036.854.775.807)</code>.</li>
+</ul>
+
+<p>
+<code>String</code> NO ES CONSIDERADO un tipo de dato <strong>primitivo</strong>, sino que es una <strong>CLASE</strong>. Hay otros "tipos de datos" con esta situación, pero los veremos más adelante.
+</p>
+
+<br>
+
+<h2 style="color:green;">Declaración de VARIABLES</h2>
+
+<p>
+La declaración de las <strong>variables</strong> consta de dos partes fundamentales:
+</p>
+
+<ul>
+  <li><strong>Nombre</strong>: Ejemplo: <code>numero</code>.</li>
+  <li><strong>Tipo de dato</strong>: Ejemplo: <code>int</code>.</li>
+</ul>
+
+<p>
+
+  
+Por lo tanto, una declaración de variable en <strong>Java</strong> se ve de la siguiente manera:
+</p>
+
+<pre><code>int numero;</code></pre>
