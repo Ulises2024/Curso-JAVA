@@ -45,3 +45,53 @@ Un <strong>IDE</strong> (Integrated Development Environment) es un <strong>entor
 Un IDE consta, generalmente, de un <strong>editor de código fuente</strong>, herramientas de <strong>construcción automática</strong> y un <strong>depurador</strong>. Algunos IDEs también incluyen un <strong>compilador</strong>, un <strong>intérprete</strong> o ambos, como es el caso de <code>NetBeans</code>, <code>IntelliJ</code> o <code>Eclipse</code> para <code>Java</code>.
 </p>
 
+<br>
+
+<h2 style="color:green;">¿Qué necesitamos para programar en Java?</h2>
+
+<p>
+<strong>Un IDE</strong>. En este caso utilizaremos el IDE <code>NetBeans</code> en su versión 17 o superior.
+</p>
+
+<h3 style="color:green;">JRE (Java Runtime Environment)</h3>
+<p>
+El <strong>JRE</strong> es un conjunto de utilidades que permite la <strong>ejecución de programas Java</strong>.
+</p>
+
+<h3 style="color:green;">JDK (Java Development Kit)</h3>
+<p>
+El <strong>JDK</strong> es un software que provee <strong>herramientas de desarrollo</strong> para la creación de programas en Java.
+</p>
+
+
+<br>
+
+<h2 style="color:green;">Sintaxis de <code>JAVA</code></h2>
+
+<p>
+<code>Java</code> se destaca por ser un lenguaje <strong>fuertemente tipado</strong>, es decir, que es muy exigente tanto con su <strong>sintaxis</strong> como con sus <strong>tipos de datos</strong>. Entre estas <strong>"exigencias"</strong> se destacan:
+</p>
+
+<ul>
+  <li><strong>Es Case sensitive</strong>: <em>distingue mayúsculas de minúsculas</em>.</li>
+  <li><strong>Cada línea de código debe finalizar con</strong>: <code>;</code> (punto y coma).</li>
+  <li><strong>El principio y fin de cada estructura</strong>, así como los bloques de código, se delimitan con <code>{}</code> (llaves).</li>
+</ul>
+
+<br>
+
+<h2 style="color:green;">Variables y Constantes</h2>
+
+<p>
+Una <strong>variable</strong> es un nombre que se asocia con una porción de la memoria de la computadora, en la que se guarda un valor determinado. Un claro ejemplo del uso de variables es en matemática, donde un valor <code>x</code> puede tener una infinita cantidad de valores asignados, por ejemplo <code>x = 5</code>.
+</p>
+
+<p>
+Las <strong>constantes</strong> son valores que se mantienen siempre de igual manera y que no dependen de una asignación para obtener el mismo valor. Ejemplos de constantes incluyen el valor de la gravedad de la tierra (<code>9.8</code>), el valor de <strong>Pi</strong> (<code>3.1415...</code>), el valor del <strong>IVA</strong> en algunos países, etc.
+</p>
+
+<p>
+Tanto <strong>Variables</strong> como <strong>Constantes</strong> utilizan <strong>TIPOS DE DATOS</strong>.
+</p>
+
+
