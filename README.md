@@ -134,4 +134,25 @@ La declaración de las <strong>variables</strong> consta de dos partes fundament
 Por lo tanto, una declaración de variable en <strong>Java</strong> se ve de la siguiente manera:
 </p>
 
-<pre><code>int numero;</code></pre>
+
+![Descripción de la imagen](https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/tipo_dato.png)
+
+<br>
+
+
+<h2 style="color:green;">Reglas para nombres de VARIABLES</h2>
+
+<p>Para elegir los nombres de nuestras <strong>variables</strong> debemos seguir un conjunto de reglas:</p>
+
+<ul>
+  <li><strong>No puede comenzar con un número</strong>.</li>
+  <li><strong>No puede utilizar caracteres</strong> <code>%</code> o <code>*</code>, ni ninguno que esté reservado para otras operaciones.</li>
+  <li><strong>No puede incluir el carácter espacio en blanco</strong>.</li>
+  <li><strong>Distingue entre letras mayúsculas y minúsculas</strong>.</li>
+  <li><strong>No se pueden utilizar las palabras reservadas como identificadores</strong> (por ejemplo: <code>double</code>, <code>int</code>, <code>for</code>, <code>private</code>, entre otras).</li>
+</ul>
+
+<p>Como sugerencia y buena práctica, siempre es mejor que las variables lleven nombres <strong>representativos</strong>. Por ejemplo, si tengo que calcular un promedio, puedo llamar a mi variable <code>promedio</code>.</p>
+
+<br>
+
