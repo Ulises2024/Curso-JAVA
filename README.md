@@ -1,5 +1,5 @@
-# CURSO JAVA
-Curso de java para principiantes
+<h1>CURSO JAVA</h1>
+<h3>Curso de java para principiantes de Todo Code.</h3> 
 <hr>
 <br>
 <h2 style="color:green;">¿Qué es <code>Java</code>?</h2>
@@ -163,4 +163,44 @@ Un <strong>operador</strong> es un símbolo especial que indica al compilador qu
 </p>
 
 <p>Por ejemplo:</p>
-![Descripción de la imagen](https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/operadores_java.png)
+
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/operadores_java.png" alt="Operadores en Java" width="600">
+
+<br>
+<hr>
+
+<h2 style="color:green;">Condicionales</h2>
+
+<p>
+Las <strong>estructuras condicionales</strong> permiten que un programa ejecute diferentes acciones según ciertas condiciones. Son mecanismos que permiten que el programa siga distintos caminos según ciertos criterios.
+</p>
+
+<p>Entre las estructuras condicionales de Java más utilizadas se encuentran:</p>
+
+<ul>
+  <li><strong>if + else</strong></li>
+  <li><strong>if + else</strong> anidados (o <strong>else if</strong>)</li>
+  <li><strong>switch</strong></li>
+  <li><strong>Operadores ternarios</strong></li>
+</ul>
+
+<br>
+
+<h2 style="color:green;">Condicional IF (Si)</h2>
+
+<p>
+La estructura de control <strong>if</strong> permite decidir entre dos opciones resultantes de la evaluación de una sentencia o expresión lógica. Cuando se procesa una declaración <strong>if</strong>, se evalúa la <strong>expresión de condición</strong> y el resultado es interpretado como un valor <strong>booleano</strong>.
+</p>
+
+<p>
+Si el resultado es <strong>verdadero</strong>, se ejecutan las sentencias contenidas dentro del <strong>if</strong>. En caso contrario, el programa "saltea" lo que se encuentra dentro de este bloque.
+</p>
+
+<br>
+
+<h2 style="color:green;">Condicional IF + ELSE (Si + SINO)</h2>
+
+<p>
+El <strong>else</strong> es la extensión de la sentencia <strong>if</strong>. Significa "de lo contrario" o "sino" y permite la ejecución de un bloque de código <strong>solamente</strong> si la condición de la sentencia <strong>if</strong> fue <strong>falsa</strong>.
+</p>
+
