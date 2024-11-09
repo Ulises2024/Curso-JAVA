@@ -250,7 +250,7 @@ La sintaxis básica es:
         <li>Cuando se llega a la <strong>cantidad máxima</strong> establecida por la variable, el programa sale del bucle.</li>
         <li><strong>Ejemplo</strong>: realizar 10 ejecuciones.</li>
       </ul>
-      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Bucles Controlados por un Contador.png" alt="Operadores en Java" width="500">
+      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Bucles Controlados por un Contador.png" alt="Operadores en Java" width="300">
     </details>
     <li><strong>Controlados por un centinela</strong></li>
     <details>
@@ -260,9 +260,32 @@ La sintaxis básica es:
         <li><strong>Ejemplo</strong>: un bucle se puede ejecutar mientras una variable tenga el valor <code>true</code>. Si esta cambia a <code>false</code>, el bucle se detiene.</li>
         <li>No existe una <strong>cantidad numérica</strong> que limite las ejecuciones del bucle.</li>
       </ul>
-      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Bucles Controlados por un Centinela.png" alt="Operadores en Java" width="500">
+      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Bucles Controlados por un Centinela.png" alt="Operadores en Java" width="300">
     </details>
   
   </ul>
 </ul>
 
+<br>
+
+<h2 style="color:green;">Bucle <code>do-while</code></h2>
+
+<ul>
+  <li>Permite llevar a cabo una determinada acción de forma <strong>repetitiva</strong>, de igual manera que el bucle <code>while</code>.</li>
+  <li>La <strong>condición</strong> se evalúa <strong>siempre al final</strong> del ciclo/bucle, por lo que la porción de código se ejecuta por lo menos <strong>una vez</strong>.</li>
+</ul>
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/bucle do while.png" alt="Operadores en Java" width="300">
+
+<br>
+
+<h2 style="color:green;">Bucle <code>while</code></h2>
+
+<ul>
+  <li>Permite ejecutar un bloque de código de forma <strong>repetitiva</strong> "<strong>mientras</strong>" (<code>while</code> en inglés) se cumpla una <strong>condición</strong> determinada.</li>
+  <li>La <strong>condición</strong> se evalúa <strong>siempre al inicio</strong> del ciclo/bucle.</li>
+  <li>Si la <strong>condición</strong> es válida, ingresa al bucle y ejecuta el código.</li>
+  <li>Cuando la condición deja de cumplirse, el programa <strong>sale del bucle</strong> y continúa con el resto del código.</li>
+</ul>
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/bucle while.png" alt="Operadores en Java" width="300">
+
+<br>
