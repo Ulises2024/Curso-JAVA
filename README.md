@@ -243,7 +243,26 @@ La sintaxis básica es:
   <li>Existen dos tipos de bucles:</li>
   <ul>
     <li><strong>Controlados por un contador</strong></li>
+    <details>
+      <summary><h2 style="color:green;">Bucles Controlados por un Contador</h2></summary>
+      <ul>
+        <li>En ellos existe una <strong>variable</strong> que cuenta la cantidad de "vueltas" (ejecuciones) del <strong>bucle</strong>.</li>
+        <li>Cuando se llega a la <strong>cantidad máxima</strong> establecida por la variable, el programa sale del bucle.</li>
+        <li><strong>Ejemplo</strong>: realizar 10 ejecuciones.</li>
+      </ul>
+      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Bucles Controlados por un Contador.png" alt="Operadores en Java" width="500">
+    </details>
     <li><strong>Controlados por un centinela</strong></li>
+    <details>
+      <summary><h2 style="color:green;">Bucles Controlados por un Centinela</h2></summary>
+      <ul>
+        <li>Existe una <strong>variable</strong> (generalmente <strong>booleana</strong>) que establece un <strong>valor o condición de salida</strong> del bucle.</li>
+        <li><strong>Ejemplo</strong>: un bucle se puede ejecutar mientras una variable tenga el valor <code>true</code>. Si esta cambia a <code>false</code>, el bucle se detiene.</li>
+        <li>No existe una <strong>cantidad numérica</strong> que limite las ejecuciones del bucle.</li>
+      </ul>
+      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Bucles Controlados por un Centinela.png" alt="Operadores en Java" width="500">
+    </details>
+  
   </ul>
 </ul>
 
