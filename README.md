@@ -231,3 +231,19 @@ La sintaxis básica es:
 </p>
 
 <pre><code>variable = (condición) ? valor_si_verdadero : valor_si_falso;</code></pre>
+
+
+<br>
+
+<h2 style="color:green;">Estructuras Repetitivas</h2>
+
+<ul>
+  <li>Permiten ejecutar una cierta porción de código por una <strong>determinada cantidad de veces</strong>.</li>
+  <li>Esta ejecución repetitiva se conoce como <strong>bucle</strong>.</li>
+  <li>Existen dos tipos de bucles:</li>
+  <ul>
+    <li><strong>Controlados por un contador</strong></li>
+    <li><strong>Controlados por un centinela</strong></li>
+  </ul>
+</ul>
+
