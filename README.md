@@ -204,3 +204,30 @@ Si el resultado es <strong>verdadero</strong>, se ejecutan las sentencias conten
 El <strong>else</strong> es la extensión de la sentencia <strong>if</strong>. Significa "de lo contrario" o "sino" y permite la ejecución de un bloque de código <strong>solamente</strong> si la condición de la sentencia <strong>if</strong> fue <strong>falsa</strong>.
 </p>
 <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/else.png" alt="Operadores en Java" width="300">
+
+<br>
+
+<h2 style="color:green;">Estructura Switch</h2>
+
+<p>
+La estructura <strong>switch</strong> permite múltiples caminos a partir de la evaluación de una sola <strong>expresión</strong> o <strong>condición</strong>. La expresión puede ser una variable o cualquier otro tipo, siempre y cuando se evalúe un valor simple.
+</p>
+
+<p>
+La construcción se ejecuta mediante la evaluación de la condición y un conjunto de sentencias <strong>case</strong>. Cada <strong>case</strong> es una posible respuesta a la evaluación de esa condición. Si el valor que se busca coincide con algún <strong>case</strong>, se ejecuta hasta encontrar una sentencia <strong>break</strong> o hasta el final del <strong>switch</strong> (dependiendo del caso).
+</p>
+
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/switch.png" alt="Operadores en Java" width="500">
+<br>
+
+<h2 style="color:green;">Operador Ternario</h2>
+
+<p>
+El <strong>operador ternario</strong> es una herramienta en Java para tomar decisiones simples en una sola línea de código. Permite tomar decisiones basadas en una <strong>condición</strong> y asignar un valor a una variable o expresión en función de si la condición es <strong>verdadera</strong> o <strong>falsa</strong>.
+</p>
+
+<p>
+La sintaxis básica es:
+</p>
+
+<pre><code>variable = (condición) ? valor_si_verdadero : valor_si_falso;</code></pre>
