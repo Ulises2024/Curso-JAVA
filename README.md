@@ -332,7 +332,34 @@ La sintaxis básica es:
         <li>5. Realizar un programa que muestre en pantalla palabras que sean ingresadas por teclado hasta que se ingrese la palabra "salir".</li>
       </ul>
 </details>
+
 <br>
+
+<h2 style="color:green;">Arreglos (Arrays)</h2>
+
+<p>Los <strong>arreglos</strong> (o <strong>arrays</strong>) son un conjunto de datos que se almacenan en memoria de manera <strong>contigua</strong> bajo un mismo nombre, pero con diferentes <strong>índices</strong> para diferenciar cada elemento. Son estructuras <strong>fijas</strong> que se declaran con un tamaño determinado, el cual se mantiene durante toda la ejecución del programa.</p>
+
+<ul>
+  <li>Por ejemplo, si declaras un arreglo de 5 posiciones, mantendrá esas 5 posiciones sin cambios.</li>
+  <li>Cada arreglo puede ser de un <strong>tipo de dato</strong> específico y solo puede almacenar valores de ese tipo.</li>
+</ul>
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/arreglos.png" alt="Operadores en Java" width="600">
+
+<br>
+
+<h2 style="color:green;">Arreglos Unidimensionales (Vectores)</h2>
+
+<p>Los <strong>arreglos unidimensionales</strong>, también conocidos como <strong>vectores</strong>, son estructuras que almacenan datos en una sola <strong>dimensión</strong>. Esto significa que los elementos se organizan en una secuencia lineal o en un "renglón". Cada elemento del vector se accede utilizando un <strong>índice</strong>, comenzando desde 0 hasta el tamaño del arreglo menos 1.</p>
+
+<p>Ejemplo de declaración de un arreglo unidimensional en Java:</p>
+
+<pre><code>int[] numeros = {1, 2, 3, 4, 5};</code></pre>
+
+<ul>
+  <li><strong>Característica principal</strong>: Los vectores son ideales para almacenar datos de manera secuencial, donde se requiere acceso rápido y fácil a cada elemento.</li>
+  <li><strong>Limitación</strong>: Al ser de tamaño fijo, no pueden modificarse para almacenar más elementos una vez definidos.</li>
+</ul>
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/ejemplo_arreglo_unidimensional.png" alt="Operadores en Java" width="600">
 
 
 
