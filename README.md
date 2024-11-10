@@ -289,3 +289,38 @@ La sintaxis básica es:
 <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/bucle while.png" alt="Operadores en Java" width="300">
 
 <br>
+
+<h2 style="color:green;">Bucle <code>for</code></h2>
+
+<p>El bucle <code>for</code> realiza una acción repetitiva una <strong>cantidad determinada de veces</strong>. Se lo considera principalmente un bucle "controlado por contador" porque posee su propia <strong>variable contador</strong>.</p>
+
+<ul>
+  <li>El bucle <code>for</code> está compuesto por tres partes:</li>
+  <ul>
+    <li><strong>Inicialización</strong> de la variable utilizada en la condición (se ejecuta solo una vez al principio del ciclo).</li>
+    <li><strong>Condición de fin del ciclo</strong> (se evalúa al comienzo de cada iteración).</li>
+    <li><strong>Modificación de la variable</strong> (se ejecuta al final de cada iteración).</li>
+  </ul>
+</ul>
+
+<br>
+
+<h2 style="color:green;">Bucles Infinitos</h2>
+
+<ul>
+  <li>Un <strong>bucle infinito</strong> se produce cuando el programa entra en un bucle que no tiene una <strong>condición de salida</strong>.</li>
+  <li>Esto puede suceder tanto en bucles <strong>controlados por contador</strong> como en los <strong>controlados por centinela</strong>.</li>
+  <li>Se llama bucle infinito porque, al no haber una condición de salida, el bucle continúa ejecutándose <strong>sin fin</strong>.</li>
+</ul>
+
+<br>
+
+<h2 style="color:green;">Otros Operadores</h2>
+
+<ul>
+  <li>Como sabemos, <code>String</code> no es un "tipo de dato" como tal, sino una <strong>clase</strong> que funciona <strong>como si fuese un tipo de dato</strong>.</li>
+  <li>Dado esto, <code>String</code> tiene sus propios "operadores", que se usan en forma de <strong>métodos</strong> (funciones).</li>
+</ul>
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Otros operadores.png" alt="Operadores en Java" width="800">
+
+<br>
