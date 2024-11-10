@@ -322,5 +322,17 @@ La sintaxis básica es:
   <li>Dado esto, <code>String</code> tiene sus propios "operadores", que se usan en forma de <strong>métodos</strong> (funciones).</li>
 </ul>
 <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/Otros operadores.png" alt="Operadores en Java" width="800">
-
+<details>
+      <summary><h2 style="color:green;">Ejercicios propuestos</h2></summary>
+      <ul>
+        <li>1. Realizar un programa que muestre en pantalla los números del 1 al 35 (unp abajo del otro). Utilizar para esto alguna estructura repetitiva.</li>
+        <li>2. Realizar un programa que dado por teclado un límite numérico (por ejemplo 100) muestre en pantalla todos los números hasta ese límite (empezando por 1).</li>
+        <li>3. Realizar un programa que muestre por pantalla los números del 200 al 250 saltando de 2 en dos. La secuencia debería ser: 200...202...204...etc.</li>
+        <li>4. Realizar un programa que lleve a cabo la cuenta regresiva para el año nuevo. La cuenta debe comenzar en 10 y terminar en 1.</li>
+        <li>5. Realizar un programa que muestre en pantalla palabras que sean ingresadas por teclado hasta que se ingrese la palabra "salir".</li>
+      </ul>
+</details>
 <br>
+
+
+
