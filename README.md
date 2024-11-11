@@ -360,6 +360,22 @@ La sintaxis básica es:
   <li><strong>Limitación</strong>: Al ser de tamaño fijo, no pueden modificarse para almacenar más elementos una vez definidos.</li>
 </ul>
 <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/ejemplo_arreglo_unidimensional.png" alt="Operadores en Java" width="600">
+<h2 style="color:green;">Conceptos Clave en Arrays</h2>
+  
+  <p>Los conceptos más importantes en cualquier <strong>array</strong> son el <strong>recorrido</strong> y la <strong>carga</strong>:</p>
+  
+  <ul>
+    <li><strong>Recorrido</strong>: Se refiere al proceso de iterar o "recorrer" cada elemento del array, permitiendo acceder, analizar o modificar los valores almacenados.</li>
+      <p>Ejemplo de iteración a lo largo del array:</p>
+      <pre>
+        <code>
+          for (int i = 0; i &lt; numeros.length; i++) {
+              System.out.println("Estoy en el indice: " + i + " y el valor es: " + numeros[i]);
+          }
+        </code>
+      </pre>
+    <li><strong>Carga</strong>: Consiste en almacenar datos en el array, es decir, "cargar" valores en las posiciones del array para su uso posterior en el programa.</li>
+  </ul>
 
 
 
