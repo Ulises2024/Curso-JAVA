@@ -377,5 +377,45 @@ La sintaxis básica es:
     <li><strong>Carga</strong>: Consiste en almacenar datos en el array, es decir, "cargar" valores en las posiciones del array para su uso posterior en el programa.</li>
   </ul>
 
+<br>
 
+<h2>Arreglos Bidimensionales (Matrices)</h2>
+<p>Las <strong>matrices</strong> tienen la característica de tener tanto <strong>filas</strong> como <strong>columnas</strong>.</p>
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/arreglos bidimensionales.png" alt="Operadores en Java" width="600">
+
+```java
+// Declarar variables
+int matriz[][] = new int[2][5];
+Scanner teclado = new Scanner(System.in);
+// Recorrido y carga de matrices
+for (int f = 0; f < matriz.length; f++) { // hacer length a una matriz te devuelve el número de filas
+    for (int c = 0; c < matriz[0].length; c++) { // hacer length a una fila te devuelve el número de columnas
+        System.out.println("Ingrese el valor para la fila " + f + ", columna " + c + ": ");
+        matriz[f][c] = teclado.nextInt();
+    }
+}
+// Recorrido y muestra de matrices
+for (int f = 0; f < matriz.length; f++) {
+    for (int c = 0; c < matriz[0].length; c++) {
+        System.out.println("Fila: " + f + " Columna: " + c + " Valor: " + matriz[f][c]);
+    }
+}
+```
+
+<br>
+
+<h1>Error por desbordamiento</h1>
+    <p>Un <strong>error por desbordamiento</strong> ocurre cuando queremos acceder a una posición de nuestro <strong>vector</strong> que no está contemplada para el tamaño que tiene.</p>
+    <p>Por ejemplo, si el vector tiene <strong>20 posiciones</strong> y queremos acceder a la <strong>posición 21</strong>, esta no existe.</p>
+    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/ejemplo de error por desbordamiento.png" alt="Operadores en Java" width="600">
+
+<details>
+      <summary><h2 style="color:green;">Ejercicios propuestos</h2></summary>
+      <ul>
+        <li>1.Llevar a cabo un programa que incluya un vector que almacene los nombres: Alejandra, Leonardo, Rosa, Guillermo, Gabriel, Daniel, Luisa y Ludmila. Realizar un recorrido del vector para cargar los datos y otro recorrido para mostrar los mismos por pantalla.</li>
+        <li>2. Realizar un programa que permita la carga de 10 números en un vector. Una vez cargados, se necesita que el programa determine cual es el mayor y cual es el menor de ellos.</li>
+        <li>3. Realizar un programa que permita la carga de 15 números en un vector. Una vez cargados, se necesita que el programa cuente e informe por pantalla cuántas veces se cargó el número 3.</li>
+        <li>4. Un empleado desea almacenar en un vector sus 12 sueldos del año. A partir de esto, necesita un programa que determine y muestre por pantalla la suma total de sus 12 sueldos y el promedio de sueldo que tuvo en el año.</li>
+      </ul>
+</details>
 
