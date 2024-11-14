@@ -441,4 +441,4 @@ for (int f = 0; f < matriz.length; f++) {
         <li><strong>Lógica de negocio</strong></li>
         <li><strong>Persistencia</strong> (o controladora de BD)</li>
     </ul>
-    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/modelo de capas.png" alt="Modelo de capas" width="600">
+    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/modelo de capas.png" alt="Modelo de capas" width="300">
