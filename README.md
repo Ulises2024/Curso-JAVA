@@ -442,3 +442,81 @@ for (int f = 0; f < matriz.length; f++) {
         <li><strong>Persistencia</strong> (o controladora de BD)</li>
     </ul>
     <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/modelo de capas.png" alt="Modelo de capas" width="300">
+    <details>
+      <summary><h2 style="color:green;">Crear estructura desde cero.</h2></summary>
+          <ul>
+            <li>1. Nuevo proyecto</li>
+            <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/estructura_base.png" alt="Operadores en Java" width="300">
+            <li>2. Refactorizar name de archivo java source package(ejemploigu)</li>
+            <p>nombre siempre en minuscula y sin caracteres especiales. En este caso "logica".</p>  
+            <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/refactorizar_name.png" alt="Operadores en Java" width="300">
+            <li>3. Crear nueva capa de IGU</li>
+            <table border="1">
+              <tr>
+                <td>
+                  <h4>Crear nueva capa para IGU y persistencia</h4>
+                  <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/crear_capa_igu.png" alt="Operadores en Java" width="300">
+                </td>
+                <td>
+                  <h4>Nombrar capa</h4>
+                  <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/nombrar_capaigu.png" alt="Operadores en Java" width="300">
+                </td>
+              </tr>
+              <p>Se repiten los pasos anteriores para crear ahora la capa de persistencia y se vera de la siguiente manera.</p> 
+              <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/nombrar_capaigu.png" alt="Operadores en Java" width="300">
+            </table>
+            <li>4. Refactorizar name de archivo java source package(ejemploigu)</li>
+            <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/ejemplo estructura con las 3 capas.png" alt="Operadores en Java" width="300">
+          </ul>
+    </details>
+<br>
+<h2>Interfaz Gráfica de Usuario (IGU)</h2>
+    <p>• Es una porción de programa que permite la <strong>interacción</strong> de un <strong>usuario</strong> con un sistema computadora de manera sencilla e interactiva.</p>
+    <p>• Su principal uso consiste en proporcionar un <strong>entorno visual</strong>.</p>
+    <p>• Para un uso sencillo de las interfaces gráficas de usuario, <strong>Java</strong> implementó una librería conocida como <strong>Swing</strong>. Swing permite que una interfaz gráfica de Java pueda ser ejecutada en cualquier dispositivo con cualquier sistema operativo, siempre y cuando ejecute Java.</p>
+  
+<br>
+<h2>Swing</h2>
+    <p><strong>Java Swing</strong> está compuesto por 3 partes:</p>
+    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_swing.png" alt="Swing" width="300">
+    <p>Es importante ir de lo general a lo particular, donde los <strong>contenedores</strong> son la primera capa de nuestra interfaz gráfica. Los <strong>componentes</strong> representan cada uno de los elementos dentro de ese contenedor, y los <strong>eventos</strong> son cada una de las acciones que pueden realizar los elementos en ese contenedor.</p>
+
+<br>
+
+<h2>Contenedores Gráficos</h2>
+    <p>Su principal función es organizar los <strong>componentes gráficos</strong> (botones, cuadros de texto, etiquetas, etc.). Proporcionan la estructura que necesitan los componentes Swing para el manejo de eventos.</p>
+    <p>Los dos contenedores más importantes son:</p>
+    <ul>
+        <li><strong>JFrame</strong>: Es la ventana primaria. Es de mayor nivel dentro de una aplicación.</li>
+        <li><strong>JPanel</strong>: Es un contenedor de nivel intermedio. Su función es simplificar el posicionamiento de los componentes dentro de una ventana principal.</li>
+    </ul>
+    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_contenedores_graficos.png" alt="contenedores graficos" width="300">
+
+<h2>Componentes Gráficos</h2>
+    <p>A cada contenedor (como un <strong>JFrame</strong> o <strong>JPanel</strong>) se le pueden añadir diversos elementos. Estos elementos se denominan <strong>componentes gráficos</strong>. Algunos de los más conocidos y utilizados son:</p>
+    <ul>
+        <li><strong>JLabel</strong>: Son etiquetas y se utilizan para presentar textos en pantalla.</li>
+        <li><strong>JButton</strong>: Son botones que pueden incorporarse a la interfaz gráfica.</li>
+        <li><strong>JTextField</strong>: Son cajas de texto que permiten la entrada de datos.</li>
+        <li><strong>JComboBox</strong>: Permite listar una serie de elementos que pueden ser seleccionados.</li>
+        <li><strong>JCheckBox</strong>: Es una casilla de verificación que permite hacer selecciones múltiples dentro de un conjunto de opciones en la interfaz gráfica.</li>
+    </ul>
+    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/componentes_graficos.png" alt="componentess graficos" width="300">
+
+<h2>Variables de Swing</h2>
+    <p>Cada <strong>componente</strong> o <strong>contenedor</strong> en una aplicación o programa es representado por una <strong>variable</strong>, donde el tipo de dato es el nombre del tipo de elemento que estamos utilizando. Por ejemplo:</p>
+    <pre><code class="java">
+        // Declaración de variables en Swing
+        JFrame ventanaPrincipal = new JFrame("Mi Ventana");
+        JButton botonAceptar = new JButton("Aceptar");
+        JLabel etiquetaNombre = new JLabel("Nombre:");
+        JTextField campoTextoNombre = new JTextField(20);
+    </code></pre>
+  <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_variable_swing.png" alt="componentess graficos" width="300">
+  
+
+<h2>Eventos</h2>
+    <p>Los <strong>eventos</strong> permiten la interacción con los usuarios. En <strong>Java</strong>, se representan a través de métodos, donde cada componente o elemento puede tener sus propios eventos.</p>
+    <p>Un ejemplo de evento podría ser que al hacer clic sobre un botón, cambie el color de fondo de un panel.</p>
+    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_evento.png" alt="componentess graficos" width="300">
+    
