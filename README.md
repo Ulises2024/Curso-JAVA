@@ -426,7 +426,19 @@ for (int f = 0; f < matriz.length; f++) {
         <li>2. Se necesita un programa que permita a un profesor cargar en las 3 primeras posiciones de cada fila las notas del alumno y que en un vector diferente se calculen los promedios.</li>
         <li>3. Este vector debe tener la misma cantidad de posiciones que alumnos y coincidir en sus índices.</li>
         <li>4. Una vez realizados los cálculos, se desea mostrar las 3 notas de cada alumno y el promedio correspondiente recorriendo la matriz.</li>
-        <li><img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/tabla ejercicio extra matriz.png" alt="Operadores en Java" width="600"></li>
+        <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/tabla ejercicio extra matriz.png" alt="Operadores en Java" width="600">
       </ul>
 </details>
 
+<br>
+
+<h2>Modelo de Capas</h2>
+    <p>A la hora de programar, existen ciertos <strong>patrones de diseño</strong> o <strong>buenas prácticas</strong> que podemos llevar a cabo para que nuestro código sea más <strong>legible</strong>, funcione mejor y tenga mayor <strong>facilidad de mantenimiento</strong>.</p>
+    <p>Entre los patrones de diseño más conocidos para lograr un código eficiente, encontramos al patrón <strong>MVC</strong> (modelo, vista, controlador). No es el único que existe, y dada su complejidad, existen otros que se "aproximan" pero que están más simplificados; es el caso del <strong>Modelo de Capas</strong>.</p>
+    <p>El Modelo de Capas cuenta con 3 partes principales:</p>
+    <ul>
+        <li><strong>IGU</strong> o <strong>Interfaz Gráfica</strong></li>
+        <li><strong>Lógica de negocio</strong></li>
+        <li><strong>Persistencia</strong> (o controladora de BD)</li>
+    </ul>
+    <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/modelo de capas.png" alt="Modelo de capas" width="600">
