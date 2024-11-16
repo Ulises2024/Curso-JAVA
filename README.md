@@ -519,4 +519,5 @@ for (int f = 0; f < matriz.length; f++) {
     <p>Los <strong>eventos</strong> permiten la interacción con los usuarios. En <strong>Java</strong>, se representan a través de métodos, donde cada componente o elemento puede tener sus propios eventos.</p>
     <p>Un ejemplo de evento podría ser que al hacer clic sobre un botón, cambie el color de fondo de un panel.</p>
     <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_evento.png" alt="componentess graficos" width="300">
-    
+
+<br>
