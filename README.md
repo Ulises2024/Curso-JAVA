@@ -547,7 +547,12 @@ for (int f = 0; f < matriz.length; f++) {
           <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_metodos_swing.png" alt="Operadores en Java" width="300">
         </td>
       </tr>
-      <p>Se repiten los pasos anteriores para crear ahora la capa de persistencia y se vera de la siguiente manera.</p> 
-      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/nombrar_capaigu.png" alt="Operadores en Java" width="300">
     </table>
-    
+
+<br>
+
+<h2>Ejemplo Copiador de frases</h2>
+<h5>1.-Interfaz Gráfica</h5>
+<p>Se repiten los pasos anteriores para crear ahora la capa de persistencia y se vera de la siguiente manera.</p> 
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/nombrar_capaigu.png" alt="Operadores en Java" width="300">
+
