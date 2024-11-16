@@ -1,5 +1,7 @@
 <h1>CURSO JAVA</h1>
 <h3>Curso de java para principiantes de Todo Code.</h3> 
+<a href="https://www.youtube.com/watch?v=qxXcI56NfnE&t=22167s">Ver video en YouTube</a>
+
 <hr>
 <br>
 <h2 style="color:green;">¿Qué es <code>Java</code>?</h2>
@@ -521,3 +523,31 @@ for (int f = 0; f < matriz.length; f++) {
     <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_evento.png" alt="componentess graficos" width="300">
 
 <br>
+
+<h2>Métodos de Swing</h2>
+    <p>Los <strong>métodos</strong> (o funciones) más utilizados para interfaces gráficas de usuario son:</p>
+    <ul>
+        <li><strong>getText()</strong>: Permite obtener el contenido o texto ingresado en un determinado elemento.</li>
+        <li><strong>setText()</strong>: Permite establecer (<em>settear</em>) un valor o contenido en un determinado elemento.</li>
+    </ul>
+    <p><strong>Ejemplo:</strong></p>
+    <table border="1">
+      <tr>
+        <td>
+          <pre><code class="java">
+              //Ejemplo Text Field 
+              cajaTexto.setText("Hola estoy probando");
+          </code>
+          <code class="java">
+              //Ejemplo Text Field 
+              String texto cajaTexto.getText();
+          </code></pre>
+        </td>
+        <td>
+          <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_metodos_swing.png" alt="Operadores en Java" width="300">
+        </td>
+      </tr>
+      <p>Se repiten los pasos anteriores para crear ahora la capa de persistencia y se vera de la siguiente manera.</p> 
+      <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/nombrar_capaigu.png" alt="Operadores en Java" width="300">
+    </table>
+    
