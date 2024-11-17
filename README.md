@@ -566,8 +566,25 @@ for (int f = 0; f < matriz.length; f++) {
       </tr>
     </table>
 <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/copiador_de_textos.png" alt="Operadores en Java" width="400">
+<br>
 
 
+<details>
+      <summary><h2 style="color:green;">Ejercicios practico SORTEADOR</h2></summary>
+      <p>Un supermercado realiza todos los meses sorteos entre sus clientes depositen, en un sobre, al menos 3 tickets de compras realizadas en alguna de sus sucursales en días distintos. En todos los sorteos se pueden elegir distinta cantidad de ganadores.</p>
+  <p>Por cada sobre que un cliente deposita, recibe un número de participante que está compuesto por, el día de entrega del sobre, el mes y un número de ticket (4 digitos) de alguno de los 3 que haya depositado, por ejemplo, si hubiese entregado su sobre el 19/09 y su num de ticket sea el 0158 del día, su código sería: 19090158. </p>
+      <ul>
+        <li>1. Se necesita un programa que sea capaz de llevar a cabo los sorteos donde el encargado del supermercado deba ingresar el número de mes del cual se está sorteando, la cantidad de ganadores (puede variar mes a mes) y luego presionar un botón para ir visualizando cada ganador.</li>
+        <li>2. Los números ganadores se deben ir visualizando en una interfaz gráfica dentro de una tabla en el lado derecho del programa de forma acumulativa hasta que se de por cerrado el sorteo.</li>
+        <li>3. Para cerrar/finalizar un sorteo, se necesita un botón que haga dicha tarea y vacie todos los campos de la interfaz gráfica.</li>
+      </ul>
+  <h5>Pistas Importantes:</h5>
+      <ul>
+        <li> En cada mes el rango de números dentro del cuál se sortea va a ser diferente, ejemplo, en septiembre será desde 01090001 hasta 30099999, pero en octubre desde 01100001 hasta 31109999.</li>
+        <li> Se recomienda guardar cada número ganador dentro de la posición de un vector en base al puesto que corresponda al premio.</li>
+        <li> La lógica a implementar es SOLO LÓGICA de INTERFAZ GRÁFICA.</li>
+      </ul>
+</details>
 
 
 
