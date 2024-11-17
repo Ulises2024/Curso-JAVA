@@ -552,7 +552,22 @@ for (int f = 0; f < matriz.length; f++) {
 <br>
 
 <h2>Ejemplo Copiador de frases</h2>
-<h5>1.-Interfaz Gráfica</h5>
-<p>Se repiten los pasos anteriores para crear ahora la capa de persistencia y se vera de la siguiente manera.</p> 
-<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/nombrar_capaigu.png" alt="Operadores en Java" width="300">
+<h4>*** Interfaz Gráfica ***</h4>
+ <table border="1">
+      <tr>
+        <td>
+          <p>1.- Crear Panel mas grande que es Jframe (Pantalla principal).</p> 
+          <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/crear_jframe.png" alt="Operadores en Java" width="300">
+        </td>
+        <td>
+         <p>2.- Nombrar como "VentanaPrincipal".</p> 
+          <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/img_jframe_name.png" alt="Operadores en Java" width="300">
+        </td>
+      </tr>
+    </table>
+<img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/copiador_de_textos.png" alt="Operadores en Java" width="400">
+
+
+
+
 
