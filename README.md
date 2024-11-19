@@ -593,6 +593,7 @@ for (int f = 0; f < matriz.length; f++) {
       <ul>
         <li><a href="https://github.com/Ulises2024/Curso-JAVA/tree/main/Ejemplos/TPIntegrador">Sorteador de supermercado</a></li>
       </ul>
+  <img src="https://github.com/Ulises2024/Curso-JAVA/blob/main/SOURCE/sorteador.png" alt="Operadores en Java" width="400">
 </details>
 
 
