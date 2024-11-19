@@ -1,4 +1,4 @@
-<h1>CURSO JAVA</h1>
+<h1>Apuntes CURSO JAVA</h1>
 <h3>Curso de java para principiantes de Todo Code.</h3> 
 <a href="https://www.youtube.com/watch?v=qxXcI56NfnE&t=22167s">Ver video en YouTube</a>
 
