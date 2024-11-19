@@ -591,7 +591,7 @@ for (int f = 0; f < matriz.length; f++) {
 <details>
       <summary><h2 style="color:green;">Desarrollo</h2></summary>
       <ul>
-        <li>[Sorteador de supermercado]([URL-del-repositorio](https://github.com/Ulises2024/Curso-JAVA/tree/main/Ejemplos/TPIntegrador))</li>
+        <li><a href="https://github.com/Ulises2024/Curso-JAVA/tree/main/Ejemplos/TPIntegrador">Sorteador de supermercado</a></li>
       </ul>
 </details>
 
